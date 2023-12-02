@@ -1,0 +1,34 @@
+names:
+- Ahri
+- Akali
+- Amumu
+- Augment
+- Bard
+- Corki
+- Ekko
+- Garen
+- Gnar
+- Gragas
+- Kennen
+- Lillia
+- Lux
+- Mordekaiser
+- Nami
+- Neeko
+- Olaf
+- Pantheon
+- Senna
+- Sett
+- Taric
+- TwistedFate
+- Twitch
+nc: 23
+roboflow:
+  license: MIT
+  project: tft-set-10
+  url: https://universe.roboflow.com/game-highlights/tft-set-10/dataset/1
+  version: 1
+  workspace: game-highlights
+test: ../test/images
+train: TFT-Set-10-1/train/images
+val: TFT-Set-10-1/valid/images
